@@ -1,12 +1,11 @@
+
 #ifndef _USBCFG_H_
 #define _USBCFG_H_
 
 
 // ST-LINK/V2 VID and PID
-//#define BDLINK_VID                      0x0483
-//#define BDLINK_PID                      0x3748
-#define BDLINK_VID                      0xABCD
-#define BDLINK_PID                      0xEFAB
+#define BDLINK_VID                      0x0483
+#define BDLINK_PID                      0x3748
 
 /*
  * Endpoints to be used for USBD1.
